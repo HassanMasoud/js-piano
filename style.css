@@ -28,9 +28,17 @@ body {
   border: 1px solid #333;
 }
 
+.white.active {
+  background-color: #ccc;
+}
+
 .black {
   --width: 60px;
   margin: 0px calc(var(--width) / -2);
   background-color: black;
   z-index: 2;
+}
+
+.black.active {
+  background-color: #333;
 }
